@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+	*{
+		color: magenta;
+		font-size: 20px
+	}
+
+	div{
+		height: 600px;
+		width: 450px;
+		background-color: olive;
+		border-radius: 40px;
+		border-color: purple;
+		border-left-color: red;
+	
+	}
+	button{
+		text-decoration: none
+	}
+	body{ 
+		background-color: #689878
+	 }
+	</style>
+</head>
+<body>
+	<center>
+		<div>
+	<h3>MEDICAL CARE</h3>
+	<form method="post" action="os.php">
+	<label>names</label><input type="text" name="name"><br><br>	
+	<label>id</label><input type="number" name="name"><br><br>	
+     <label>gender</label><input type="radio" name="male" value="m">M<input type="radio" name="female" value="f">F	<br><br>
+    <label>date</label><input type="date" name="name"><br><br>	
+    <label>ubudehe category</label>
+    <select>
+    	<option>I</option>
+    	<option>II</option>
+    	<option>III</option>
+    </select><br><br>
+    <label>help for doctor/nurse</label>
+    <textarea cols="15" rows="10"  placeholder="medical help"></textarea><br><br>
+    <input type="submit" name="save" value="submit"><input type="reset" name="reset" value="delete">
+	</form>
+	</div>
+	<button style="text-decoration: none;"><a href="index.html">BACK TO HOME</a></button>
+</center>
+</body>
+</html>
